@@ -4,25 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esteban Bolaños</title>
+    <title>Formulario</title>
 </head>
 <link   rel="stylesheet" href="index.css">
 <body>
-    <p class="titulo1"> Consola Linux Modificada </p>
-    <p class="titulo1"> ESTEBAN BOLAÑOS</p>
-    <p class="titulo1"> 67000040 </p>
-    <img src="Captura.jpg" alt="" srcset="">
-    <h1>Series Favorita</h1>
-    <ol>
 
-      <LI>WANDA VISION</LI>
-      <li>Black Mirror</li>
-      <li>Breakin Bad</li>
-      <li>Mr Robot</li>
-      <li>Games of thrones</li>
-      <li>The Boys</li>  
-      <li>My Little Pony</li>
-        <li>Elite</li>
-    </ol>
+    <form action="">
+
+        <label for="Nombre"></label>
+        <span>Nombre y Apellidos</span>
+        <input type="text" id=Nombre placeholder="Digite su Nombre" required>
+        <br><br>
+
+        <label for="Telefono"></label>
+        <span>Telefono</span>
+        <input type="number" id = Telefono placeholder ="Digite su Telefono" required>
+        <br><br>
+
+        <label for="Direccion"></label>
+        <span>Direccion</span>
+        <input type="text" id = Direccion placeholder="Digite su direccion" required>
+        <br><br>
+
+        <label for="Nacimiento"></label>
+        <span>Fecha de Nacimiento</span>
+        <input type="date" name="Nacimiento" id="Nacimiento" required>
+        <br><br>
+
+        <label for="email"></label>
+        <span>Email</span>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <label for="Password"></label>
+        <span>Digite su Contraseña</span>
+        <input type="password" name="Password" id="Password" required>
+        <br><br>
+
+        <label for="Password2"></label>
+        <span>Confirmar Contraseña</span>
+        <input type="password" name="Password2" id="Password2" required>
+        <br><br>
+
+
+
+
+    </form>
 </body>
 </html>
